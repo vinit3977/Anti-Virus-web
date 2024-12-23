@@ -133,3 +133,179 @@ body {
     margin: 0 10px;
     max-height: 50px;
 }
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.highlighted-text {
+  color: #d9534f; /* Red color */
+  font-weight: bold;
+}
+
+.view-all-blogs {
+  color: #d9534f;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.view-all-blogs:hover {
+  text-decoration: underline;
+}
+
+.cards-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.custom-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.continue-reading {
+  color: #d9534f;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.continue-reading:hover {
+  text-decoration: underline;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 30px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer-top ul {
+  padding-left: 20px;
+}
+
+.footer-top ul li {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.footer-middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+  color: #d9534f;
+}
+
+.footer-logo {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer-bottom span {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom span::before {
+  content: "🌐 ";
+  margin-right: 5px;
+}
